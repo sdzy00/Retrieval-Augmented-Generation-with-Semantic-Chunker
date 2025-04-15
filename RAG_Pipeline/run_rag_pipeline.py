@@ -52,7 +52,7 @@ class RAG_Pipeline:
             model="llama3-8b-8192",
             temperature=0.3,
             max_tokens=100,
-            api_key="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"
+            api_key=""
         )
         rag_generator = RAGPredictor(chunk, embedder, index, metadata_list, chat)
         rag_generator.run(start=0, end=3, k=1, save_dir=self.save_path,
