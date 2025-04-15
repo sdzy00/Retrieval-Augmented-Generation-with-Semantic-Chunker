@@ -53,3 +53,5 @@ Thumbs.db
 
 # Cached test results
 .pytest_cache/
+
+data/embeddings/embeddings_semantic_bge-large-en-v1.5_test500random.npy
