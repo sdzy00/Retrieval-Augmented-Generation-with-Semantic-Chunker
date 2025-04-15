@@ -1,0 +1,10 @@
+datasets==3.5.0
+faiss_cpu==1.7.4
+joblib==1.4.2
+langchain_community==0.3.21
+langchain_experimental==0.3.4
+langchain_groq==0.3.2
+langchain_text_splitters==0.3.8
+numpy==1.26.4
+sentence_transformers==4.0.2
+torch==2.3.0

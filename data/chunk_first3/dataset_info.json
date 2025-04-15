@@ -1,0 +1,314 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "rc",
+  "dataset_name": "trivia_qa",
+  "dataset_size": 15989747548,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00000-of-00026.parquet": {
+      "num_bytes": 307610967,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00001-of-00026.parquet": {
+      "num_bytes": 298416732,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00002-of-00026.parquet": {
+      "num_bytes": 289709718,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00003-of-00026.parquet": {
+      "num_bytes": 444279357,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00004-of-00026.parquet": {
+      "num_bytes": 461405543,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00005-of-00026.parquet": {
+      "num_bytes": 473993364,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00006-of-00026.parquet": {
+      "num_bytes": 404032334,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00007-of-00026.parquet": {
+      "num_bytes": 323749114,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00008-of-00026.parquet": {
+      "num_bytes": 328648816,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00009-of-00026.parquet": {
+      "num_bytes": 335984400,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00010-of-00026.parquet": {
+      "num_bytes": 400203409,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00011-of-00026.parquet": {
+      "num_bytes": 370360318,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00012-of-00026.parquet": {
+      "num_bytes": 340685762,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00013-of-00026.parquet": {
+      "num_bytes": 326670816,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00014-of-00026.parquet": {
+      "num_bytes": 310339369,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00015-of-00026.parquet": {
+      "num_bytes": 157499696,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00016-of-00026.parquet": {
+      "num_bytes": 135811010,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00017-of-00026.parquet": {
+      "num_bytes": 158557437,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00018-of-00026.parquet": {
+      "num_bytes": 200270246,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00019-of-00026.parquet": {
+      "num_bytes": 179969089,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00020-of-00026.parquet": {
+      "num_bytes": 150311095,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00021-of-00026.parquet": {
+      "num_bytes": 152972065,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00022-of-00026.parquet": {
+      "num_bytes": 147105465,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00023-of-00026.parquet": {
+      "num_bytes": 157350848,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00024-of-00026.parquet": {
+      "num_bytes": 153993467,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/train-00025-of-00026.parquet": {
+      "num_bytes": 158137859,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/validation-00000-of-00004.parquet": {
+      "num_bytes": 326779315,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/validation-00001-of-00004.parquet": {
+      "num_bytes": 296373497,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/validation-00002-of-00004.parquet": {
+      "num_bytes": 184077305,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/validation-00003-of-00004.parquet": {
+      "num_bytes": 129269443,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/test-00000-of-00004.parquet": {
+      "num_bytes": 307480997,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/test-00001-of-00004.parquet": {
+      "num_bytes": 287815054,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/test-00002-of-00004.parquet": {
+      "num_bytes": 171270185,
+      "checksum": null
+    },
+    "hf://datasets/mandarjoshi/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc/test-00003-of-00004.parquet": {
+      "num_bytes": 127674891,
+      "checksum": null
+    }
+  },
+  "download_size": 8998808983,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "entity_pages": {
+      "feature": {
+        "doc_source": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "filename": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "title": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "wiki_context": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "Sequence"
+    },
+    "search_results": {
+      "feature": {
+        "description": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "filename": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "rank": {
+          "dtype": "int32",
+          "_type": "Value"
+        },
+        "title": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "url": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "search_context": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "Sequence"
+    },
+    "answer": {
+      "aliases": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "normalized_aliases": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "matched_wiki_entity_name": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "normalized_matched_wiki_entity_name": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "normalized_value": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "value": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 24988556531,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 12749702795,
+      "num_examples": 138384,
+      "shard_lengths": [
+        5000,
+        5323,
+        5323,
+        4323,
+        3323,
+        4323,
+        4000,
+        3323,
+        5323,
+        5323,
+        5323,
+        5323,
+        3323,
+        4323,
+        5000,
+        5322,
+        3322,
+        10644,
+        9644,
+        8322,
+        10644,
+        9644,
+        10644,
+        1322
+      ],
+      "dataset_name": "trivia_qa"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 1662327903,
+      "num_examples": 17944,
+      "shard_lengths": [
+        4000,
+        4486,
+        7972,
+        1486
+      ],
+      "dataset_name": "trivia_qa"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1577716850,
+      "num_examples": 17210,
+      "shard_lengths": [
+        4000,
+        4303,
+        8605,
+        302
+      ],
+      "dataset_name": "trivia_qa"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

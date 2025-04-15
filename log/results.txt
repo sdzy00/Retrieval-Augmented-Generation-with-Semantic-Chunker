@@ -1,0 +1,183 @@
+maxlen：50
+first500 question：
+
+fixed_size:
+Exact Match (EM): 0.6980
+F1 Score: 0.7182
+
+recursive:
+Exact Match (EM): 0.7000
+F1 Score: 0.7154
+
+
+chunk_size=200, overlap=20, k=1, embedding = bge, maxlen = 100, first500 question:
+
+fixed_size_Exact Match (EM): 0.7040
+fixed_size_F1 Score: 0.7221
+recursive_Exact Match (EM): 0.7320
+recursive_F1 Score: 0.7481
+
+chunk_size=100, overlap=30, k=1, embedding = bge, maxlen = 100, first500 question:
+
+fixed_size_Exact Match (EM): 0.7180
+fixed_size_F1 Score: 0.7343
+recursive_Exact Match (EM): 0.7340
+recursive_F1 Score: 0.7501
+
+first 500 questions:
+chunksize200_overlap20_bge-large-en-v1.5_fixed_size_chunking_maxlen100_k=3_full_results_0_500
+chunksize200_overlap20_bge-large-en-v1.5_recursive_maxlen100_k=3_full_results_0_500
+semantic_bge-large-en-v1.5_500data
+
+fixed_size_Exact Match (EM): 0.7500
+fixed_size_F1 Score: 0.7647
+predictions_list_recursive length: 500
+recursive_Exact Match (EM): 0.7560
+recursive_F1 Score: 0.7719
+predictions_list_semantic length: 500
+semantic_Exact Match (EM): 0.7780
+semantic_F1 Score: 0.7928
+embeddings shape:  (26635, 1024)
+embedding_dim:  1024
+
+data/predictions/fixed_size_chunking/chunksize100_overlap30_random500data/predictions_bge-large-en-v1.5_fixed_size_chunking_maxlen100_k=3_full_results_0_500.joblib
+data/predictions/recursive_chunking/chunksize100_overlap30_random500data/predictions_bge-large-en-v1.5_recursive_chunking_maxlen100_k=3_full_results_0_500.joblib
+data/predictions/semantic_chunking/recursive_chunksize3000_overlap200_random500data/predictions_bge-large-en-v1.5_semantic_chunking_minlen1000chars_k=3_full_results_0_500.joblib
+
+predictions_list_fixed length: 500
+fixed_size_Exact Match (EM): 0.8300
+fixed_size_F1 Score: 0.8417
+predictions_list_recursive length: 500
+recursive_Exact Match (EM): 0.8500
+recursive_F1 Score: 0.8591
+predictions_list_semantic length: 500
+semantic_Exact Match (EM): 0.8400
+semantic_F1 Score: 0.8517
+embeddings shape:  (112916, 1024)
+embedding_dim:  1024
+Number of vectors in the index: 112916
+Number of vectors in the index: 112916
+
+
+"data/predictions/fixed_size_chunking/chunksize500_overlap50_random500data/predictions_bge-large-en-v1.5_fixed_size_chunking_maxlen100_k=3_full_results_0_500.joblib"
+"data/predictions/recursive_chunking/chunksize500_overlap50_random500data/predictions_bge-large-en-v1.5_recursive_chunking_maxlen100_k=3_full_results_0_500.joblib"
+"data/predictions/semantic_chunking/recursive_chunksize3000_overlap200_random500data/predictions_bge-large-en-v1.5_semantic_chunking_minlen1000chars_k=3_full_results_0_500.joblib"
+
+predictions_list_fixed length: 500
+fixed_size_Exact Match (EM): 0.8520
+fixed_size_F1 Score: 0.8643
+predictions_list_recursive length: 500
+recursive_Exact Match (EM): 0.8500
+recursive_F1 Score: 0.8612
+predictions_list_semantic length: 500
+semantic_Exact Match (EM): 0.8400
+semantic_F1 Score: 0.8517
+embeddings shape:  (17373, 1024)
+embedding_dim:  1024
+Number of vectors in the index: 17373
+Number of vectors in the index: 17373
+
+"data/predictions/fixed_size_chunking/chunksize200_overlap20_random2000data/predictions_bge-large-en-v1.5_fixed_size_chunking_maxlen100_k=3_full_results_0_2000.joblib"
+"data/predictions/recursive_chunking/chunksize200_overlap20_random2000data/predictions_bge-large-en-v1.5_recursive_chunking_maxlen100_k=3_full_results_0_2000.joblib"
+"data/predictions/semantic_chunking/recursive_chunksize3000_overlap200_random2000data/predictions_bge-large-en-v1.5_semantic_chunking_maxlen100_k=3_full_results_0_2000.joblib"
+predictions_list_fixed length: 2000
+fixed_size_Exact Match (EM): 0.8210
+fixed_size_F1 Score: 0.8321
+predictions_list_recursive length: 2000
+recursive_Exact Match (EM): 0.8225
+recursive_F1 Score: 0.8332
+predictions_list_semantic length: 2000
+semantic_Exact Match (EM): 0.8145
+semantic_F1 Score: 0.8257
+
+
+"data/predictions/fixed_size_chunking/chunksize200_overlap20_random500data/predictions_bge-large-en-v1.5_fixed_size_chunking_maxlen100_k=3_full_results_0_500.joblib"
+"data/predictions/recursive_chunking/chunksize200_overlap20_random500data/predictions_bge-large-en-v1.5_recursive_chunking_maxlen100_k=3_full_results_0_500.joblib"
+"data/predictions/semantic_chunking/recursive_chunksize3000_overlap200_random500data/predictions_bge-large-en-v1.5_semantic_chunking_minlen1000chars_k=3_full_results_0_500.joblib"
+fixed_size_Exact Match (EM): 0.8460
+fixed_size_F1 Score: 0.8581
+predictions_list_recursive length: 500
+recursive_Exact Match (EM): 0.8400
+recursive_F1 Score: 0.8516
+predictions_list_semantic length: 500
+semantic_Exact Match (EM): 0.8400
+semantic_F1 Score: 0.8517
+
+
+"data/predictions/fixed_size_chunking/chunksize200_overlap20_random500data/predictions_all-MiniLM-L6-v2_fixed_size_chunking_maxlen100_k=1_full_results_0_500.joblib"
+"data/predictions/recursive_chunking/chunksize200_overlap20_random500data/predictions_all-MiniLM-L6-v2_recursive_chunking_maxlen100_k=1_full_results_0_500.joblib"
+"data/predictions/semantic_chunking/recursive_chunksize3000_overlap200_random500data/predictions_all-MiniLM-L6-v2_semantic_chunking_maxlen100_k=1_full_results_0_500.joblib"
+predictions_list_fixed length: 500
+fixed_size_Exact Match (EM): 0.7540
+fixed_size_F1 Score: 0.7657
+predictions_list_recursive length: 500
+recursive_Exact Match (EM): 0.7920
+recursive_F1 Score: 0.8047
+predictions_list_semantic length: 500
+semantic_Exact Match (EM): 0.7840
+semantic_F1 Score: 0.7978
+
+"data/predictions/fixed_size_chunking/chunksize200_overlap20_random500data/predictions_all-MiniLM-L6-v2_fixed_size_chunking_maxlen100_k=3_full_results_0_500.joblib"
+"data/predictions/recursive_chunking/chunksize200_overlap20_random500data/predictions_all-MiniLM-L6-v2_recursive_chunking_maxlen100_k=3_full_results_0_500.joblib"
+"data/predictions/semantic_chunking/recursive_chunksize3000_overlap200_random500data/predictions_all-MiniLM-L6-v2_semantic_chunking_maxlen100_k=3_full_results_0_500.joblib"
+predictions_list_fixed length: 500
+fixed_size_Exact Match (EM): 0.8280
+fixed_size_F1 Score: 0.8401
+predictions_list_recursive length: 500
+recursive_Exact Match (EM): 0.8340
+recursive_F1 Score: 0.8452
+predictions_list_semantic length: 500
+semantic_Exact Match (EM): 0.8220
+semantic_F1 Score: 0.8341
+
+*** default percentile = 85.0 ***
+
+
+"data/predictions/fixed_size_chunking/chunksize200_overlap20_random500data/predictions_all-MiniLM-L6-v2_fixed_size_chunking_maxlen100_k=1_full_results_0_500.joblib"
+"data/predictions/recursive_chunking/chunksize200_overlap20_random500data/predictions_all-MiniLM-L6-v2_recursive_chunking_maxlen100_k=1_full_results_0_500.joblib"
+"data/predictions/semantic_chunking/recursive_chunksize3000_overlap200_random500data/predictions_all-MiniLM-L6-v2_semantic_chunking_percentile90_maxlen100_k=1_full_results_0_500.joblib"
+predictions_list_fixed length: 500
+fixed_size_Exact Match (EM): 0.7540
+fixed_size_F1 Score: 0.7657
+predictions_list_recursive length: 500
+recursive_Exact Match (EM): 0.7920
+recursive_F1 Score: 0.8047
+predictions_list_semantic length: 500
+semantic_Exact Match (EM): 0.7820
+semantic_F1 Score: 0.7949
+
+Retrieval Accuracy: 0.6860
+Retrieval Accuracy: 0.6880
+Retrieval Accuracy: 0.7320
+
+"data/metadata/metadata_list_semantic_chunk_bge-large-en-v1.5_random2000data.joblib"
+k=1
+Retrieval Accuracy_fixed_size : 0.7825
+Retrieval Accuracy_recursive : 0.7720
+Retrieval Accuracy_semantic : 0.7980
+
+
+"data/predictions/fixed_size_chunking/chunksize200_overlap20_random2000data/predictions_bge-large-en-v1.5_fixed_size_chunking_maxlen100_k=1_full_results_0_2000.joblib"
+"data/predictions/recursive_chunking/chunksize200_overlap20_random2000data/predictions_bge-large-en-v1.5_recursive_chunking_maxlen100_k=1_full_results_0_2000.joblib"
+"data/predictions/semantic_chunking/recursive_chunksize3000_overlap200_random2000data/predictions_bge-large-en-v1.5_semantic_chunking_maxlen100_k=1_full_results_0_2000.joblib"
+
+fixed_size_Exact Match (EM): 0.7860
+fixed_size_F1 Score: 0.7986
+predictions_list_recursive length: 2000
+recursive_Exact Match (EM): 0.7790
+recursive_F1 Score: 0.7922
+predictions_list_semantic length: 2000
+semantic_Exact Match (EM): 0.7755
+semantic_F1 Score: 0.7881
+
+
+
+metadata_path_fixed_size = "data/metadata/metadata_list_fixed_size_bge-large-en-v1.5_chunksize200_overlap20_random500data.joblib"
+embedding_path_fixed_size = "data/embeddings/embeddings_fixed_size_bge-large-en-v1.5_chunksize200_overlap20_test500random.npy"
+metadata_path_recursive = "data/metadata/metadata_list_recursive_bge-large-en-v1.5_chunksize200_overlap20_random500data.joblib"
+embedding_path_recursive = "data/embeddings/embeddings_recursive_bge-large-en-v1.5_chunksize200_overlap20_test500random.npy"
+metadata_path_semantic = "data/metadata/metadata_list_semantic_bge-large-en-v1.5_random500data.joblib"
+embedding_path_semantic = "data/embeddings/embeddings_semantic_bge-large-en-v1.5_test500random.npy"
+Retrieval Accuracy_fixed_size : 0.7980
+Retrieval Accuracy_recursive : 0.7860
+Retrieval Accuracy_semantic : 0.8040
